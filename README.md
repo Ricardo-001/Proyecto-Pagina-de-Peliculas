@@ -6,7 +6,7 @@
 - Css flexbox
 
 ## Detalles sobre este proyecto
-Este es un proyecto untilizando Html y Css para crear una galeria de imagenes
+Este es un proyecto untilizando Html y Css para crear una Pagina de Peliculas
 
 ![Imagen del Proyecto Game Boy](/capture1-project-Pagina-de-Peliculas.png)
 
