@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="icon" href="src/assets/favicon-pirateflix.png" type="image/png">
+    <title>PirateFlix</title>
+</head>
+
+<body>
+
+
+
+    <!-- Start --- header --- header --- header --- header --- header --- header --- header --- header -->
+    <header>
+
+        <!-- container de todo el header  -->
+        <nav class="container-nav">
+
+            <!-- contenedor del titulo -->
+            <div class="container-title">
+
+                <!-- titulo de la pagina -->
+                <div>
+                    <a href="index.html">
+                        <h1 class="title animate__animated animate__backInLeft">PirateFlix</h1>
+                    </a>
+                </div>
+
+                <!-- logo -->
+                <div>
+                    <a href="index.html"><img src="src/assets/logo-pirateflix.gif" alt="Logo"
+                            class="logo"></a>
+                </div>
+            </div>
+
+
+
+
+
+
+            <!-- contenedor de los links -->
+            <div class="container-links">
+
+                <!-- links y iconos -->
+                <span class="hover">
+                    <a href="index.html" class="link"> <i class="fa-solid fa-house icon"></i> Inicio</a>
+                </span>
+
+                <span class="hover">
+                    <a href="src/pages/catalogue/catalogue.html" class="link"> <i
+                            class="fa-solid fa-list icon"> </i> Catalogo</a>
+                </span>
+
+                <span class="hover">
+                    <a href="src/pages/user/user.html" class="link"> <i class="fa-solid fa-user icon"> </i>
+                        Usuario</a>
+                </span>
+
+            </div>
+
+
+
+
+
+
+
+            <div class="container-search-nav">
+                <!-- contenedor del buscador -->
+                <form class="form-nav">
+
+                    <!-- icono del buscador -->
+                    <label for="buscar" class="box-icon-search-nav"><i
+                            class="fa-solid fa-magnifying-glass icon hover"></i></label>
+
+                    <!-- buscador -->
+                    <input type="search" class="search-nav" id="buscar" name="value"
+                        placeholder="Buscar películas y animes" required="">
+
+                </form>
+            </div>
+        </nav>
+    </header>
+    <!-- END --- header --- header --- header --- header --- header --- header --- header --- header -->
+
+
+
+    <!-- Start --- main --- main --- main --- main --- main --- main --- main --- main --- main --- main --- main -->
+    <main>
+
+        <div class="container-search">
+            <!-- contenedor del buscador -->
+
+            <!-- icono del buscador -->
+            <label for="search" class="box-icon-search"> <i class="fa-solid fa-magnifying-glass icon hover"></i></label>
+
+            <!-- buscador -->
+            <input type="search" class="search" id="search" name="value" placeholder="Buscar películas y animes" required="">
+        </div>
+
+
+
+
+        <!-- contenerdor del contenido pricipal (posters) -->
+        <div class="container-main">
+
+            <!-- container y contenido -->
+            <div class="content">
+
+                <!-- imagen (poster) -->
+                <a href="src/content/samurai-x/samuraix.html"><img
+                        src="src/assets/samurai x poster.jfif" alt="poster" class="poster"></a>
+
+                <!-- titulo del contenedor  -->
+                <a href="src/content/samurai-x/samuraix.html" class="title-content">Samurai X</a>
+
+                <!-- mensaje informativo tooltip -->
+                <span class="tooltip">La historia trata de un joven, el mayor asesino de la era Tokugawa hasta la
+                    Restauración Meiji, apodado Battousai. Este joven llamado Kenshin Himura, decide no volver a matar
+                    gente, y para poder pagar de alguna forma los asesinatos que cometió, decide proteger a las personas
+                    a su alrededor con la técnica más aterradora y poderosa en existencia: el Hiten Mitsurugi Ry?,
+                    aprendida gracias al adiestramiento de su maestro Seijuro Hiko , que lo acogió cuando era pequeño
+                    tras sobrevivir en el asesinato de la caravana de esclavos en que se encontraba, donde 3 hermanas lo
+                    habian adoptado como hermano menor. De esta manera conoce a Kaoru Kamiya, del dojo Kamiya Kasshin
+                    Ry?, Sanosuke, Yahiko y a otros personajes que pasan a ser parte de su vida, y motivo de
+                    existencia.</span>
+            </div>
+
+
+            <!-- resto del contenido -->
+            <div class="content">
+                <a href="src/content/death-note/death-note.html"><img src="src/assets/deaht note poster.jpg"
+                        alt="poster" class="poster"></a>
+                <a href="src/content/death-note/death-note.html" class="title-content">Death Note</a>
+                <span class="tooltip">Light Yagami es un excelente estudiante japonés que ha tenido una vida aburrida.
+                    Esto cambia radicalmente cuando encuentra tirado en el suelo un cuaderno conocido como Death Note
+                    (Libreta de la Muerte), un cuaderno perdido por Ryuk, un Shinigami (Dios de la muerte). Cualquier
+                    humano cuyo nombre esté escrito en el cuaderno morirá, y ahora Light ha decidido utilizar este poder
+                    para crear un mundo perfecto sin criminales. Pero cuando los criminales comienzan a morir de forma
+                    masiva, las autoridades envían al legendario detective L en busca del asesino. Con L pisándole los
+                    talones, Podrá mantener Light su noble propósito incluso arriesgando su vida.</span>
+            </div>
+            <div class="content">
+                <a href="src/content/rocky/rocky.html"><img src="src/assets/rocky poster.jfif"
+                        alt="poster" class="poster"></a>
+                <a href="src/content/rocky/rocky.html" class="title-content">Rocky</a>
+                <span class="tooltip">Cuando el campeón mundial de boxeo de peso pesado, Apollo Creed quiere darle a un
+                    luchador desconocido una oportunidad por el título como un truco publicitario, sus manejadores
+                    eligen a Rocky Balboa, un coleccionista sin educación para un prestamista de Filadelfia. Rocky se
+                    une con el entrenador Mickey Goldmill para aprovechar al máximo esta vez en un descanso de por
+                    vida.</span>
+            </div>
+            <div class="content">
+                <a href="src/content/john-whick/jonh-wick.html"><img
+                        src="src/assets/john wick poster.jpg" alt="poster" class="poster"></a>
+                <a href="src/content/john-whick/jonh-wick.html" class="title-content">John Wick</a>
+                <span class="tooltip">La ciudad de Nueva York se convierte en el patio acribillado a balazos de un
+                    ex-asesino mientras él elimina a los gánsteres que destruyeron todo lo que él quería.</span>
+            </div>
+            <div class="content">
+                <a href="src/content/full-metal-alquemis/full-metal-alchemists-brotherhood.html"><img
+                        src="src/assets/full metal alchemists brotherhood poster.jpg" alt="poster"
+                        class="poster"></a>
+                <a href="src/content/death-note/" class="title-content">Full Metal Alchemists:
+                    Brotherhood</a>
+                <span class="tooltip">La historia se centra en dos hermanos, Edward Elric y Alphonse Elric que rompieron
+                    el mayor tabú de la alquimia, la trasmutación humana al tratar de revivir a su fallecida madre; en
+                    consecuencia Edward pierde su pierna izquierda y Alphonse pierde todo su cuerpo, Edward para salvar
+                    a su hermano sella su alma en una gran armadura de hierro a cambio de su brazo derecho; ahora los
+                    dos con un nuevo objetivo buscan desesperadamente la piedra filosofal para poder regresar sus
+                    cuerpos a la normalidad.</span>
+            </div>
+            <div class="content">
+                <a href="src/content/death-note/"><img
+                        src="src/assets/shingeki no kyojin poster.jpg" alt="poster" class="poster"></a>
+                <a href="src/content/death-note/" class="title-content">Shingeki No Kyojin</a>
+                <span class="tooltip">La historia nos traslada a un mundo en el que la humanidad estuvo a punto de ser
+                    exterminada cientos de años atrás por los gigantes. Los gigantes son enormes, parecen no ser
+                    inteligentes y devoran seres humanos. Lo peor es que parece que lo hacen por placer y no por
+                    alimentarse. Una pequeña parte de la humanidad ha conseguido sobrevivir protegiéndose en una ciudad
+                    con unos altísimos muros, más altos que el mayor de los gigantes. La ciudad vive su vida tranquila,
+                    y hace más de 100 años que ningún gigante aparece por allí. Eren y su hermana adoptiva Mikasa son
+                    todavía unos adolescentes cuando ven algo horroroso: un gigante mucho mayor que todos los que la
+                    humanidad había conocido hasta el momento está destruyendo los muros de la ciudad. No pasa mucho
+                    tiempo hasta que los gigantes entran por el hueco abierto en el muro y comienzan a devorar a la
+                    gente.</span>
+            </div>
+            <div class="content">
+                <a href="src/content/death-note/"><img
+                        src="src/assets/kimetsu no yaiba poster.jpg" alt="poster" class="poster"></a>
+                <a href="src/content/death-note/" class="title-content">Kimetsu no Yaiba</a>
+                <span class="tooltip">Estamos en la era Taisho de Japón. Tanjiro, un joven que se gana la vida vendiendo
+                    carbón, descubre un día que su familia ha sido asesinada por un demonio. Para empeorar las cosas, su
+                    hermana menor Nezuko, la única superviviente de la masacre, ha sufrido una transformación en
+                    demonio. Destrozado por los acontecimientos Tanjiro decide convertirse en un cazador de demonios
+                    para poder devolver a su hermana a la normalidad y matar al demonio que masacró a su familia.</span>
+            </div>
+            <div class="content">
+                <a href="src/content/death-note/"><img src="src/assets/dragon ball poster.jpg"
+                        alt="poster" class="poster"></a>
+                <a href="src/content/death-note/" class="title-content">Dragon Ball</a>
+                <span class="tooltip">Con Goku como protagonista principal de la historia, el argumento se centra en la
+                    búsqueda de las legendarias esferas del dragon, un total de siete que al ser reunidas daban lugar a
+                    la aparición del dragón sagrado que puede conceder cualquier deseo. Goku, con la ayuda de su
+                    compañera Bulma además de otros personajes que se irán uniendo con el paso de la historia, se
+                    adentrará en la búsqueda de las esferas del dragon y desafiará a todo tipo de villanos para
+                    convertirse en el hombre más fuerte del mundo. También se hará especial incapié al Budokai
+                    Tenkaichi, un gran Torneo Mundial de Artes Marciales en el que los mejores luchadores de todo el
+                    Mundo se darán cita, batiéndose en Duelo a fin de demostrar quien es el mas fuerte luchador sobre la
+                    Tierra.</span>
+            </div>
+            <div class="content">
+                <a href="src/content/death-note/"><img src="src/assets/regular show poster.jpg"
+                        alt="poster" class="poster"></a>
+                <a href="src/content/death-note/" class="title-content">Regular Show</a>
+                <span class="tooltip"> Los encargados de un parque y mejores amigos, Mordecai y Rigby, se pasan el día
+                    intentando entretenerse con lo que sea.</span>
+            </div>
+            <div class="content">
+                <a href="src/content/death-note/"><img src="src/assets/naruto poster.jpg"
+                        alt="poster" class="poster"></a>
+                <a href="src/content/death-note/" class="title-content">Naruto</a>
+                <span class="tooltip">Naruto, un aprendiz de ninja de la Aldea Oculta de Konoha es un chico travieso que
+                    desea llegar a ser el Hokage de la aldea para demostrar a todos lo que vale. Lo que descubre al
+                    inicio de la historia es que la gente le mira con desconfianza porque en su interior está encerrado
+                    el demonio Kyubi que una vez destruyó la aldea, y que el anterior líder de la misma tuvo que
+                    encerrar en su cuerpo siendo aún muy pequeño, a coste de su vida. Aunque sus compañeros no saben
+                    esto, tampoco le aprecian porque es mal estudiante y siempre está haciendo bromas. Sin embargo, la
+                    forma de actuar y la determinación de Naruto demuestran a los demás que puede llegar muy lejos, y el
+                    recelo de los otros chicos se va disipando. Naruto y sus compañeros Sakura y Sasuke, junto a su
+                    maestro Kakashi tendrán que enfrentarse a una serie de combates y misiones a lo largo de la historia
+                    que les permitirán mejorar y crecer. Naruto se vera enfrentado a sus principales enemigos Akatsuki,
+                    Itachi y Kisame.</span>
+            </div>
+            <div class="content">
+                <a href="src/content/death-note/"><img
+                        src="src/assets/over the garden wall poster.jpg" alt="poster" class="poster"></a>
+                <a href="src/content/death-note/" class="title-content">Over The Garden Wall</a>
+                <span class="tooltip">Dos hermanos se pierden en un bosque misterioso e intentan encontrar el camino de
+                    vuelta a casa.</span>
+            </div>
+            <div class="content">
+                <a href="src/content/death-note/"><img src="src/assets/adventure time poster.jpg"
+                        alt="poster" class="poster"></a>
+                <a href="src/content/death-note/" class="title-content">Adventure Time</a>
+                <span class="tooltip">La serie sigue las aventuras de Finn, un niño humano, y su mejor amigo y hermano
+                    adoptivo Jake. La trama se desarrolla en la tierra post-apocalíptica de Ooo, la cual está llena de
+                    restos de una civilización destruida por una guerra nuclear, con mutaciones, demonios y creaturas
+                    mágicas. La vida de Finn y Jake siempre se ve envuelta en aventuras llenas de peligros e
+                    inquietudes.</span>
+            </div>
+            <div class="content">
+                <a href="src/content/death-note/"><img src="src/assets/vinland saga poster.jpg"
+                        alt="poster" class="poster"></a>
+                <a href="src/content/death-note/" class="title-content">Vinland Saga</a>
+                <span class="tooltip">Thorfinn, hijo de uno de los guerreros más grandes de los vikingos, se encuentra
+                    entre los mejores luchadores de la alegre banda de mercenarios dirigida por el astuto Askeladd. Sin
+                    embargo, Thorfinn no es parte del grupo por el saqueo que implica, en cambio, por haber causado una
+                    gran tragedia a su familia, el chico ha prometido matar a Askeladd en un duelo justo. Thorfinn pasa
+                    su niñez con la tripulación mercenaria, perfeccionando sus habilidades en el campo de batalla entre
+                    los daneses, donde matar es solo otro placer de la vida. Un día, cuando Askeladd recibe noticias de
+                    que el príncipe danés Canute ha sido tomado como rehén, trama un ambicioso plan: uno que decidirá al
+                    próximo rey de Inglaterra y alterará drásticamente las vidas de Thorfinn, Canute y la suya. Situada
+                    en el siglo XI en Europa, Vinland Saga cuenta una sangrienta epopeya en una era donde la violencia,
+                    la locura y la injusticia son ineludibles, proporcionando un paraíso para el infierno enloquecido
+                    por las batallas y el resto de quienes viven en él.</span>
+            </div>
+            <div class="content">
+                <a href="src/content/death-note/"><img src="src/assets/saint seiya poster.jpg"
+                        alt="poster" class="poster"></a>
+                <a href="src/content/death-note/" class="title-content">Saint Seiya: king of the zodiac</a>
+                <span class="tooltip">Cuenta la historia de un grupo de jóvenes guerreros denominados Santos (o
+                    caballeros en varias traducciones), quienes luchan por proteger a la diosa griega Atenea de las
+                    fuerzas del mal. Para luchar, los Santos sólo utilizan su energía interior (denominada cosmos), sus
+                    puños y armaduras que les sirven de protección y que además están inspiradas en constelaciones o
+                    seres de la mitología griega y escandinava.</span>
+            </div>
+            <div class="content">
+                <a href="src/content/death-note/"><img src="src/assets/one piece poster.jfif"
+                        alt="poster" class="poster"></a>
+                <a href="src/content/death-note/" class="title-content">One Piece</a>
+                <span class="tooltip">Una historia épica de piratas, donde narra la historia de "Monkey D. Luffy" quien
+                    cuado tenia 7 años, comió accidentalmente una "Akuma no mi"(Futa del diablo) la cual le dio poderes
+                    de goma. Por otra parte "Gol D. Roger" conocido como "El rey de los Piratas" quien fuera ejecutado
+                    por la Marine, habló antes de morir, acerca de su famoso tesoro "One Piece" escondido en la "Gran
+                    line". Esta noticia desato la gran era de la piratas lanzando a incontables piratas a ese lugar, en
+                    busca de "One Piece" el tesoro perdido. Diez años después, Luffy inspirado en "Gol D. Roger" y un
+                    pirata de nombre Akagami no Shanks (Shanks el pelirrojo) se convierte en pirata deseando ser el
+                    próximo "Rey de los Piratas" y zarpar para conocer amigos y tener aventuras con ellos, teniendo como
+                    meta encontrar el "One Piece".</span>
+            </div>
+            <div class="content">
+                <a href="src/content/death-note/"><img src="src/assets/one punch man poster.jpg"
+                        alt="poster" class="poster"></a>
+                <a href="src/content/death-note/" class="title-content">One Punch Man</a>
+                <span class="tooltip">La serie está protagonizada por un héroe que ha entrenado tanto que se ha quedado
+                    calvo, y tiene tanta fuerza que puede acabar con cualquier enemigo de un solo puñetazo. Sin embargo,
+                    al ser tan fuerte, se aburre y se frustra porque no le cuesta nada vencer sus batallas.</span>
+            </div>
+            <div class="content">
+                <a href="src/content/death-note/"><img src="src/assets/hajime no ippo poster.jpg"
+                        alt="poster" class="poster"></a>
+                <a href="src/content/death-note/" class="title-content">Hajime no Ippo</a>
+                <span class="tooltip">Makunouchi Ippo es un chico honrado y humilde, al que le gusta mucho ayudarle con
+                    sus deberes a su madre. Hasta el momento, no tenía ninguna meta u objetivo claro en la vida, pero
+                    mientras un día estaba siendo molestado por unos pandilleros, se encuentra con un campeón nacional
+                    de boxeo japonés, Mamoru Takamura, quien lo defiende de los abusones y lo regaña por lo patético que
+                    se ve al no defenderse. A partir de este punto Takamura le enseña el arte del boxeo profesional e
+                    Ippo se ve inspirado tras ello. La historia dará lugar a un nuevo campeón sin lugar a dudas.</span>
+            </div>
+            <div class="content">
+                <a href="src/content/death-note/"><img src="src/assets/scarface poster.jpg"
+                        alt="poster" class="poster"></a>
+                <a href="src/content/death-note/" class="title-content">scarface</a>
+                <span class="tooltip">Tony Montana es un emigrante cubano frío e implacable que se instala en Miami con
+                    el propósito de convertirse en un gángster importante, y poder así ganar dinero y posición. Con la
+                    colaboración de su amigo Manny Rivera inicia una fulgurante carrera delictiva, como traficante de
+                    cocaína, con el objetivo de acceder a la cúpula de una organización de narcos.</span>
+            </div>
+            <div class="content">
+                <a href="src/content/death-note/"><img src="src/assets/ong bak poster.jpg"
+                        alt="poster" class="poster"></a>
+                <a href="src/content/death-note/" class="title-content">Ong Bak</a>
+                <span class="tooltip">Ong Bak es una estatua legendaria de Buda que se halla en el templo de Nong
+                    Para-du, en la Tailandia rural. Los aldeanos creen que los poderes mágicos de Ong Bak les protegen
+                    de todo mal. Un despiadado gánster roba la cabeza del buda dejando al pueblo totalmente
+                    desprotegido. Sus habitantes buscarán a un guerrero para recuperar el buda y enfrentarse a la banda
+                    de gánsters, encontrando a Ting, un huérfano criado en el templo, y alumno de Pra Kru, un amable
+                    monje, experto en el ancestral arte del Muay Thai: “Las Nueve Armas Corporales".</span>
+            </div>
+            <div class="content">
+                <a href="src/content/death-note/"><img src="src/assets/batman begins poster.jpg"
+                        alt="poster" class="poster"></a>
+                <a href="src/content/death-note/" class="title-content">Batman Begins</a>
+                <span class="tooltip">Después de entrenar con su mentor, Batman comienza su lucha para liberar a Ciudad
+                    Gótica de la corrupción.</span>
+            </div>
+        </div>
+    </main>
+    <!-- END --- main --- main --- main --- main --- main --- main --- main --- main --- main --- main --- main -->
+
+
+
+
+    <!-- Start --- footer --- footer --- footer --- footer --- footer --- footer --- footer --- footer --- footer -->
+    <footer>
+
+        <!-- contenedor del pie de pagina -->
+        <div class="container-foot">
+
+            <!-- contenedor de la targeta de presentacion -->
+            <div class="card animate__animated animate__pulse animate__infinite">
+
+                <!-- foto -->
+                <span>
+                    <a href="https://www.youtube.com/watch?v=sd-dK8OqtVU" class="photo hover">
+                        <img src="src/assets/Doom.jpg" alt="photo creator">
+                    </a>
+                </span>
+
+                <!--  contenedor del texto de presentacion -->
+                <span class="text-card">
+
+                    <!-- texto de presentacion -->
+                    <p>Creado Por Ric_001</p>
+
+                    <!-- links -->
+                    <span><a href="https://github.com/Ricardo-001"><i
+                                class="fa-brands fa-github icon hover link-me"></i></a></span>
+                    <span><a href="https://t.me/Ricardo_0014"><i
+                                class="fa-brands fa-telegram icon hover link-me"></i></a></span>
+                </span>
+            </div>
+        </div>
+    </footer>
+    <!-- END --- footer --- footer --- footer --- footer --- footer --- footer --- footer --- footer --- footer -->
+
+</body>
+
+</html>

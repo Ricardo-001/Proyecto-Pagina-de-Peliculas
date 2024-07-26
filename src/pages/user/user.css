@@ -1,0 +1,494 @@
+/* Start --- universal configuration --- labels and properties */
+*{
+    box-sizing: border-box;
+    font-family: "Libre Baskerville", sans-serif;
+}
+
+body{
+    margin: 0px;
+    background-image: url(/src/assets/backgraund-pirateflix.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+a{
+    text-decoration: none;
+    color: #f5f5f1;
+}
+
+:root{
+    --black-dark: #040204;
+    --black-clear: #121212;
+    --grey-normal: #302c2c;
+    --grey-clear: #b0b0b0;
+    --grey-dark: #1C1D1E;
+    --grey-transparent: #5d5d5d33;
+    --red-normal: #e50815;
+    --red-clear: #c11212;
+    --red-dark: #800b0b;
+    --white-normal: #FBFBFB;
+    --border-grey: #2A2B2C;
+    --hover-red: #EF4444;
+    --hover-red-intense: #ff006a;
+    --white-clear: #f5f5f5;
+    --traparent-baner: #080f28c1;
+    --body-color: #060B1E;
+    --grey-pure:#808080;
+    --grey-text: #cbcbcb;
+}
+/* Start --- universal configuration --- labels and properties */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Start --- header --- header --- header --- header --- header --- header --- header --- header*/
+
+/* creando posisionamiento y la superpocicion */
+header {
+    position: sticky;
+    z-index: 1; 
+    width: 100%; 
+    top: 0; 
+}
+
+/* container de todo el header */
+.container-nav{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 4.5vw;
+    background-color: var(--black-dark);
+}
+
+/* contenedor del titulo */
+.container-title{
+    display: flex;
+    width: 25vw;
+    height: 100%;
+    gap: 0.5vw;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+/* titulo de la pagina */
+.title{
+    margin: 0;
+    font-size: 3.5vw;
+    color: var(--red-normal);
+}
+
+/* logo */
+.logo{
+    width: 4.5vw;
+}
+
+
+
+
+
+
+/* contenedor de los links */
+.container-links{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+    height: 100%;
+    flex: 1;
+}
+
+/* links */
+.link{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.1vw;
+    padding: 0.3vw;
+    font-size: 1.5vw;
+    color: var(--white-normal);
+}
+
+.link:hover{
+    color: var(--hover-red);
+}
+
+/* iconos */
+.icon{
+    color: var(--red-normal);
+    font-size: 1.8vw;
+}
+
+/* ----------------------------------------------------------- */
+.hover:hover{
+    transform: scale(1.2);
+    transition: transform 0.3s ease;
+}
+
+/* ----------------------------------------------------------- */
+.link:active{
+    color: #a30101;
+    transform: scale(0.9);
+}
+
+
+
+
+
+
+
+
+/* contenedor del buscador en la navegacion*/
+.container-search-nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 27vw;
+    height: 100%;
+}
+
+
+.form-nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* container del icono buscador en la navegacion */
+.box-icon-search-nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 3.5vw;
+    height: 3vw;
+    background-color: var(--grey-dark);
+    border: 1px solid var(--border-grey);
+}
+
+/* buscador en la navegacion */
+.search-nav{
+    height: 3vw;
+    width: 20vw;
+    text-align: left;
+    font-size: 1.3vw;
+    padding: 0.6vw;
+    color: var(--white-normal);
+    background-color: var(--black-clear);
+    border: 1px solid var(--border-grey);
+}
+
+/* ----------------------------------------------------------- */
+.search-nav:focus{
+    outline: 1px solid var(--red-clear);
+}
+
+/* ----------------------------------------------------------- */
+.search-nav::placeholder {
+    text-align: left; 
+    color: var(--grey-clear);
+}
+/* END --- header --- header --- header --- header --- header --- header --- header --- header*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Start --- main --- main --- main --- main --- main --- main --- main --- main --- main --- main --- main */
+.container-main{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 1.5vw;
+    padding: 1.5vw;
+}
+
+.container-title-form{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.title-form{
+    margin: 0;
+    font-size: 3vw;
+    padding: 0.5vw;
+    width: 50vw;
+    text-align: center;
+    border-radius: 1.5vw;
+    background-color: var(--grey-transparent);
+    color: var(--white-normal);
+}
+
+.container-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 20vw;
+}
+
+
+.form{
+    width: 25vw;
+    height: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.form-register{
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 1vw 0vw 0vw 1vw;
+    background-color: var(--white-clear);
+}
+
+.form-register legend{
+    font-size: 2vw;
+    width: 20vw;
+    border-radius: 1.5vw;
+    text-align: center;
+    color: var(--white-clear);
+    background-color: var(--red-clear);
+}
+
+.form-register .input-form{
+    text-align: center;
+    outline: none;
+    border: none;
+    width: 15vw;
+    height: 2vw;
+    border-radius: 1vw;
+    color: var(--red-normal);
+    background-color: var(--grey-dark);
+}
+
+.form-register .input-form::placeholder{
+    color: var(--white-clear);
+}
+
+.form-register .input-form:focus{
+    color: var(--white-clear);
+    background-color: var(--hover-red);
+}
+
+.botton{
+    width: 15vw;
+    height: 2vw;
+    outline: none;
+    border: none;
+    border-radius: 1vw;
+    font-size: 1rem;
+    color: var(--white-clear);
+    background-color: var(--red-clear);
+}   
+
+.botton:active{
+    background-color: var(--hover-red-intense);
+    transform: scale(0.9);
+}
+
+.form-login{
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 0vw 1vw 1vw 0vw;
+    background-color: var(--black-clear);
+    gap: 1.3vw;
+}
+
+.form-login legend{
+    font-size: 2vw;
+    width: 20vw;
+    border-radius: 1.5vw;
+    text-align: center;
+    background-color: var(--red-clear);
+    color: var(--white-clear);
+}
+
+.form-login .input-form{
+    text-align: center;
+    outline: none;
+    border: none;
+    width: 15vw;
+    height: 2vw;
+    border-radius: 1vw;
+    color: var(--red-normal);
+    background-color: var(--white-clear);
+}
+
+.form-login .input-form::placeholder{
+    color: var(--black-clear);
+}
+
+.form-login .input-form:focus{
+    color: var(--black-clear);
+    background-color: var(--hover-red);
+}
+
+
+/* END --- main --- main --- main --- main --- main --- main --- main --- main --- main --- main --- main */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* contenedor del pie de pagina */
+.container-foot{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 0.8vw;
+}
+
+/* contenedor de la targeta de presentacion */
+.card{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 15vw;
+    border-radius: 1.7vw;
+    background-color: var(--grey-transparent);
+}
+
+/* foto */
+.photo{
+    display: flex;
+    overflow: hidden;
+    width: 9vw;
+    height: 9vw;
+    border-radius: 5vw;
+}
+
+/* contenedor del texto de presentacion */
+.text-card{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5vw;
+    font-size: 1.2vw;
+    color: var(--white-clear);
+}
+
+/* enlace a mis redes */
+.link-me{
+    color: inherit;
+}
+
+/* ----------------------------------------------------------- */
+.link-me:hover{
+    color: var(--hover-red);
+}
